@@ -1,0 +1,219 @@
+{
+  "deb": {
+    "cmds": [
+      "sudo apt install -y"
+    ],
+    "pkgs": [
+      "make",
+      "gcc",
+      "binutils",
+      "bat",
+      "exa",
+      "fzf",
+      "hexyl",
+      "htop",
+      "jq",
+      "ripgrep",
+      "zoxide"
+    ]
+  },
+  "gem": {
+    "cmds": [
+      "gem install --no-rdoc --no-ri"
+    ],
+    "pkgs": [
+      "pry",
+      "pry-byebug",
+      "pry-doc",
+      "sqlite3",
+      "activerecord",
+      "rspec",
+      "ffi",
+      "rake",
+      "rails",
+      "rubocop"
+    ]
+  },
+  "go": {
+    "cmds": [
+      "go get",
+      "go get -u",
+      "go install"
+    ],
+    "pkgs": [
+      "golang.org/x/tools/cmd/godoc",
+      "golang.org/x/tools/cmd/goimports",
+      "github.com/rogpeppe/godef",
+      "github.com/zmb3/gogetdoc",
+      "github.com/google/gops",
+      "github.com/golang/lint/golint",
+      "github.com/tpng/gopkgs",
+      "github.com/acroca/go-symbols",
+      "golang.org/x/net/html",
+      "golang.org/x/net/html/atom",
+      "gopkg.in/yaml.v2"
+    ]
+  },
+  "npm": {
+    "cmds": [
+      "npm install",
+      "npm install --save",
+      "npm install --save-dev",
+      "yarn add",
+      "yarn add --dev"
+    ],
+    "pkgs": [
+      "@type/jest",
+      "@type/rewire",
+      "axios",
+      "babel",
+      "electron",
+      "electron-prebuilt",
+      "electron-packager",
+      "electron-builder",
+      "http-server",
+      "iconv",
+      "jest",
+      "mousetrap",
+      "rewire",
+      "typescript"
+    ]
+  },
+  "npm-global": {
+    "cmds": [
+      "sudo npm install -g",
+      "npm install -g",
+      "npm install -g --save",
+      "npm install -g --save-dev",
+      "yarn global add",
+      "yarn global add --dev",
+      "yarn global upgrade"
+    ],
+    "pkgs": [
+      "@typescript-eslint/eslint-plugin",
+      "@typescript-eslint/parser",
+      "bash-language-server",
+      "eslint-config-prettier",
+      "eslint-plugin-prettier",
+      "eslint",
+      "npm-check-updates",
+      "prettier",
+      "ts-node",
+      "typescript",
+      "webpack-cli",
+      "webpack",
+      "babel",
+      "yarn"
+    ]
+  },
+  "npm-jasmine": {
+    "cmds": [
+      "npm install --save-dev",
+      "yarn add --dev"
+    ],
+    "pkgs": [
+      "jasmine",
+      "jasmine-core",
+      "jasmine-node"
+    ]
+  },
+  "npm-karma": {
+    "cmds": [
+      "npm install --save-dev",
+      "yarn add --dev"
+    ],
+    "pkgs": [
+      "karma",
+      "jasmine",
+      "karma-jasmine",
+      "karma-coverage",
+      "karma-spec-reporter",
+      "karma-chrome-launcher",
+      "karma-html2js-preprocessor",
+      "karma-firefox-launcher",
+      "karma-phantomjs-launcher",
+      "phantomjs-prebuilt",
+      "karma-mocha",
+      "karma-cli"
+    ]
+  },
+  "npm-webpack": {
+    "cmds": [
+      "npm install --save-dev",
+      "yarn add --dev"
+    ],
+    "pkgs": [
+      "style-loader",
+      "css-loader",
+      "sass-loader",
+      "ts-loader",
+      "copy-webpack-plugin",
+      "webpack",
+      "webpack-cli",
+      "webpack-dev-server"
+    ]
+  },
+  "npm-browser-extension": {
+    "cmds": [
+      "npm install --save-dev",
+      "yarn add --dev"
+    ],
+    "pkgs": [
+      "@types/chrome",
+      "typescript",
+      "style-loader",
+      "css-loader",
+      "sass-loader",
+      "ts-loader",
+      "copy-webpack-plugin",
+      "webpack",
+      "webpack-cli",
+      "webpack",
+      "webpack-cli",
+      "web-ext"
+    ]
+  },
+  "pip": {
+    "cmds": [
+      "pip install",
+      "pip install -U"
+    ],
+    "pkgs": [
+      "lxml",
+      "pymongo",
+      "cython",
+      "requests",
+      "django"
+    ]
+  },
+  "rust": {
+    "cmds": [
+      "cargo install",
+      "cargo install -f",
+      "rustup component add"
+    ],
+    "pkgs": [
+      "cargo-update",
+      "clippy",
+      "racer",
+      "rust-analyzer",
+      "rust-docs",
+      "rust-src",
+      "rustfmt"
+    ]
+  },
+  "rust-crate": {
+    "cmds": [
+      "cargo add"
+    ],
+    "pkgs": [
+      "clap",
+      "duct",
+      "hyper",
+      "rand",
+      "regex",
+      "serde_json",
+      "thiserror"
+    ]
+  }
+}
